@@ -1,59 +1,20 @@
 import React from "react";
-import styled from "styled-components";
-
-const StyledSection = styled.section`
-  .title {
-    color: white;
-    text-align: center;
-  }
-  .text {
-    color: white;
-    text-align: center;
-    line-height: 1.8;
-  }
-`;
 
 const AboutMe = () => {
   return (
-    <StyledSection id="about">
-      <h1 className="title">What is Lorem Ipsum?</h1>
-      <p className="text">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not onlries,
-        but also the leap into electronic typesetting, remaining essentially
-        unchanged. It was popularised in the 1960s with the release of Letraset
-        sheets containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMakerries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was
-        popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software
-        like Aldus PageMakerries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with
-        the release of Letraset sheets containing Lorem Ipsum passages, and more
-        recently with desktop publishing software like Aldus PageMakerries, but
-        also the leap into electronic typesetting, remaining essentially
-        unchanged. It was popularised in the 1960s with the release of Letraset
-        sheets containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMakery five centuries, but also the
-        leap into electronic typesetting, remaining essentially unchanged. It
-        was popularised in the 1960s with the release of Letraset sheets
-        containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMakerries, but also the leap into
-        electronic typesetting, remaining essentially unchanged. It was
-        popularised in the 1960s with the release of Letraset sheets containing
-        Lorem Ipsum passages, and more recently with desktop publishing software
-        like Aldus PageMakerries, but also the leap into electronic typesetting,
-        remaining essentially unchanged. It was popularised in the 1960s with
-        the release of Letraset sheets containing Lorem Ipsum passages, and more
-        recently with desktop publishing software like Aldus PageMakerries, but
-        also the leap into electronic typesetting, remaining essentially
-        unchanged. It was popularised in the 1960s with the release of Letraset
-        sheets containing Lorem Ipsum passages, and more recently with desktop
-        publishing software like Aldus PageMaker
+    <section className="text-white pt-6" id="about">
+      <header>
+        <h2 className="text-2xl font-bold pb-3">The boring stuff</h2>
+      </header>
+      <p className="">
+        I'm from Portugal and i have concluded my master degree in
+        Eletrotecnical and Computers Engineering. I had my first job before
+        finishing my studies as a Support Specialist. I stayed for more than 2
+        years when, already as a Shift Leader, I decided that it was time for me
+        to pursue a carrear I really enjoyed. I quit my job and started to
+        deepen my knowledge in Front-End development.
       </p>
-    </StyledSection>
+    </section>
   );
 };
 

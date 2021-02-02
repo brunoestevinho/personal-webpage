@@ -4,8 +4,6 @@ import styled from "styled-components";
 import Header from "../components/header";
 import Footer from "../components/footer";
 
-import portrait from "../images/portrait_bw_pessegueiro.jpg";
-
 const StyledLayout = styled.div`
   width: 100%;
   min-height: 100vh;
@@ -19,20 +17,12 @@ const StyledLayout = styled.div`
     margin: 0 auto;
     padding: 0 2.5rem;
   }
-  .img_port img {
-    display: block;
-    position: relative;
-    width: 100%;
-  }
 `;
 
 const Layout = ({ children }) => {
   return (
     <StyledLayout>
       <Header />
-      <div className="img_port">
-        <img src={portrait} alt="" />
-      </div>
       <main id="main-content">{children}</main>
       <Footer />
     </StyledLayout>

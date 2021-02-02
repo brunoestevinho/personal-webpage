@@ -1,36 +1,31 @@
 import React from "react";
 
-import styled from "styled-components";
-
-const StyledHeader = styled.nav`
-  display: flex;
-  width: 100%;
-  height: 6.25rem;
-  padding: 0 2.5rem;
-  background: black;
-  justify-content: flex-start;
-  align-items: center;
-`;
-
-const StyledLogo1 = styled.div`
-  font-size: 2rem;
-  font-weight: 200;
-  color: white;
-`;
-
-const StyledLogo2 = styled.div`
-  font-size: 2rem;
-  font-weight: 200;
-  color: white;
-  margin: -2px 24px;
-`;
-
 const Header = () => {
   return (
-    <StyledHeader>
-      <StyledLogo1>BRUNO</StyledLogo1>
-      <StyledLogo2>ESTEVINHO</StyledLogo2>
-    </StyledHeader>
+    <nav className="m-6 text-white">
+      <div className="flex flex-row md:text-xl">
+        <div className="ml-auto font-thin">
+          <a href="#projects" className="py-1 px-5">
+            Projects
+          </a>
+        </div>
+        <div className="font-thin">
+          <a href="#contact" className="py-1 px-5">
+            Contact
+          </a>
+        </div>
+        <div className="font-thin">
+          <a
+            href="./Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+            className="py-1 px-5"
+          >
+            Resume
+          </a>
+        </div>
+      </div>
+    </nav>
   );
 };
 
