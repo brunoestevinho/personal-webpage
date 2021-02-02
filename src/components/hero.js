@@ -12,20 +12,11 @@ const HLSpan = styled.span`
   color: #292f33;
 `;
 
-const StyledIcon = styled(FontAwesomeIcon)`
-  font-size: 2rem;
-`;
-const ScrollDownWrapper = styled.div`
+const ScrollDownButton = styled.div`
   position: absolute;
-  width: 2rem;
-  height: 2rem;
   bottom: 0;
   left: 50%;
-  margin-bottom: 3rem;
   transform: translate(-50%, 0);
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
   transition: all 0.2s ease-out;
   &:hover {
@@ -50,11 +41,11 @@ const Hero = () => {
           <HLSpan>Front-End Developer</HLSpan>
         </h1>
       </div>
-      <ScrollDownWrapper>
+      <ScrollDownButton>
         <Link to="about" spy={true} smooth={true}>
-          <StyledIcon icon={faChevronDown} />
+          <FontAwesomeIcon className="text-3xl mb-16" icon={faChevronDown} />
         </Link>
-      </ScrollDownWrapper>
+      </ScrollDownButton>
     </div>
   );
 };

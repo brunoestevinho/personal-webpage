@@ -6,7 +6,7 @@ import { ReactComponent as WebPage } from "../images/webpage.svg";
 
 const Projects = () => {
   return (
-    <section className="text-white pt-20" id="about">
+    <section className="text-white pt-6" id="projects">
       <header>
         <h2 className="text-2xl font-bold pb-3">Projects</h2>
       </header>

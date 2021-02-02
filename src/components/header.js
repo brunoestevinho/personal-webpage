@@ -1,18 +1,32 @@
 import React from "react";
 
+import { Link } from "react-scroll";
+
 const Header = () => {
   return (
     <nav className="m-6 text-white">
       <div className="flex flex-row md:text-xl">
         <div className="ml-auto font-thin">
-          <a href="#projects" className="py-1 px-5">
+          <Link
+            to="projects"
+            spy={true}
+            smooth={true}
+            className="py-1 px-5 cursor-pointer
+            "
+          >
             Projects
-          </a>
+          </Link>
         </div>
         <div className="font-thin">
-          <a href="#contact" className="py-1 px-5">
+          <Link
+            to="contact"
+            spy={true}
+            smooth={true}
+            className="py-1 px-5 cursor-pointer
+            "
+          >
             Contact
-          </a>
+          </Link>
         </div>
         <div className="font-thin">
           <a
