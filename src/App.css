@@ -20,6 +20,38 @@ a {
   text-decoration: none;
 }
 
+.line1 {
+  width: 150%;
+  height: 100%;
+  border-bottom: 1px solid rgb(243, 14, 14);
+  -webkit-transform: translateY(190px) rotate(50deg);
+}
+.line2 {
+  width: 150%;
+  height: 100%;
+  border-bottom: 1px solid rgb(182, 31, 31);
+  -webkit-transform: translateY(190px) rotate(70deg);
+}
+.line3 {
+  width: 150%;
+  height: 100%;
+  border-bottom: 1px solid rgb(124, 28, 28);
+  -webkit-transform: translateY(190px) rotate(60deg);
+}
+
+.hero-title {
+  position: relative;
+  color: rgb(223, 12, 12);
+}
+
+.hero-title:after {
+  position: absolute;
+  content: "Bruno Estevinho";
+  left: 2px;
+  top: 4px;
+  color: rgba(124, 28, 28, 0.4);
+}
+
 ::-webkit-scrollbar {
   width: 10px;
 }
@@ -34,18 +66,4 @@ a {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
-}
-
-.hero .hero-img {
-  width: 100%;
-  top: 10px;
-  object-fit: cover;
-}
-.hero .shadow {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 54vh;
-  position: absolute;
-  box-shadow: inset 0px -50px 20px 10px rgba(12, 15, 17, 1);
 }

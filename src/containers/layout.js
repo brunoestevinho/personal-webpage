@@ -23,6 +23,9 @@ const Layout = ({ children }) => {
   return (
     <StyledLayout>
       <Header />
+      <div className="line1" />
+      <div className="line2" />
+      <div className="line3" />
       <main id="main-content">{children}</main>
       <Footer />
     </StyledLayout>

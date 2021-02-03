@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section className="text-white pt-6" id="projects">
       <header>
-        <h2 className="text-2xl font-bold pb-3">Projects</h2>
+        <h2 className="text-4xl font-bold pb-3">Projects</h2>
       </header>
       <div className="my-7 space-y-24">
         {project_data.map((project_data, index) => (

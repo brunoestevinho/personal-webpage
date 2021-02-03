@@ -5,8 +5,6 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-import portrait from "../images/portrait_bw_pessegueiro.jpg";
-
 const HLSpan = styled.span`
   box-shadow: inset 0 -2.5rem 0 #dadfe4;
   color: #292f33;
@@ -29,9 +27,9 @@ const ScrollDownButton = styled.div`
 
 const Hero = () => {
   return (
-    <div className="flex items-center h-screen text-white">
+    <section className="flex items-center h-screen text-white">
       <div className="space-y-2">
-        <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-purple-500">
+        <h1 className="hero-title text-5xl md:text-7xl lg:text-8xl font-bold">
           Bruno
           <br />
           Estevinho
@@ -46,7 +44,7 @@ const Hero = () => {
           <FontAwesomeIcon className="text-3xl mb-16" icon={faChevronDown} />
         </Link>
       </ScrollDownButton>
-    </div>
+    </section>
   );
 };
 
