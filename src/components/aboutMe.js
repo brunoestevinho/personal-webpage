@@ -4,7 +4,7 @@ const AboutMe = () => {
   return (
     <section className="text-white pt-6 pb-20" id="about">
       <header>
-        <h2 className="text-4xl font-bold pb-12">Boring stuff</h2>
+        <h2 className="text-4xl font-bold pb-12">The Boring stuff</h2>
       </header>
       <p className="px-4 text-center">
         I'm from Portugal and i have concluded my master degree in
