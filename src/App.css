@@ -63,7 +63,13 @@ a {
 }
 
 .timeline-container::after {
-  background-color: #a02121;
+  background: rgb(160, 33, 33);
+  background: radial-gradient(
+    circle,
+    rgba(160, 33, 33, 1) 0%,
+    rgba(92, 20, 20, 1) 50%,
+    rgba(160, 33, 33, 1) 100%
+  );
   content: "";
   position: absolute;
   left: calc(50% - 1px);
