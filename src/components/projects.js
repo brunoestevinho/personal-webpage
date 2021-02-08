@@ -1,8 +1,10 @@
 import React from "react";
-import project_data from "../projectData";
+import project_data from "../data/projectData";
 
 import { ReactComponent as GitHub } from "../images/github.svg";
 import { ReactComponent as WebPage } from "../images/webpage.svg";
+
+import project1 from "../images/todo.png";
 
 const Projects = () => {
   return (
@@ -24,9 +26,9 @@ const Projects = () => {
               }
             >
               <img
+                src={project1}
                 width="768px"
                 height="575px"
-                loading="lazy"
                 alt={project_data.title}
                 className="rounded-lg"
               />
@@ -37,12 +39,12 @@ const Projects = () => {
               </h3>
               <p>{project_data.description}</p>
               <div className="flex overflow-auto space-x-3 pb-2">
-                {project_data.tools.map((disc, index) => (
+                {project_data.tools.map((tool, index) => (
                   <span
                     className="border border-gray-500 px-2 py-1 rounded-lg text-sm"
                     key={index}
                   >
-                    {disc}
+                    {tool}
                   </span>
                 ))}
               </div>
