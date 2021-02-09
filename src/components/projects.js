@@ -49,10 +49,20 @@ const Projects = () => {
                 ))}
               </div>
               <div className="w-auto flex space-x-5 relative">
-                <a href={project_data.github} target="_blank" rel="noreferrer">
+                <a
+                  href={project_data.github}
+                  target="_blank"
+                  rel="noreferrer"
+                  alt={project_data.title}
+                >
                   <GitHub width="24px" height="24px" />
                 </a>
-                <a href={project_data.link} target="_blank" rel="noreferrer">
+                <a
+                  href={project_data.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  alt={project_data.title}
+                >
                   <WebPage width="24px" height="24px" />
                 </a>
               </div>
