@@ -27,7 +27,7 @@ const ScrollDownButton = styled.div`
 
 const Hero = () => {
   return (
-    <section className="flex items-center pl-14 md:pl-32 xl:pl-56 pb-24 h-screen text-white">
+    <section className="flex items-center pl-10 sm:pl-14 md:pl-32 xl:pl-56 pb-28 h-screen text-white">
       <div className="space-y-2">
         <h1 className="hero-title text-7xl md:text-8xl lg:text-9xl font-bold">
           Bruno
