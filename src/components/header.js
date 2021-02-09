@@ -4,8 +4,8 @@ import { Link } from "react-scroll";
 
 const Header = () => {
   return (
-    <nav className="m-6 text-white flex flex-row md:text-xl ">
-      <div className="ml-auto font-thin ">
+    <nav className="p-6 text-center text-white flex flex-row md:text-xl ">
+      <div className="ml-auto font-thin">
         <Link
           to="projects"
           spy={true}

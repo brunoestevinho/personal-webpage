@@ -3,6 +3,7 @@ import styled from "styled-components";
 
 import Header from "../components/header";
 import Footer from "../components/footer";
+import Hero from "../components/hero";
 
 const StyledLayout = styled.div`
   width: 100%;
@@ -17,6 +18,7 @@ const StyledLayout = styled.div`
     margin: 0 auto;
     padding: 0 2.5rem;
   }
+  overflow-x: hidden;
 `;
 
 const Layout = ({ children }) => {
@@ -26,6 +28,7 @@ const Layout = ({ children }) => {
       <div className="line1" />
       <div className="line2" />
       <div className="line3" />
+      <Hero />
       <main id="main-content">{children}</main>
       <Footer />
     </StyledLayout>

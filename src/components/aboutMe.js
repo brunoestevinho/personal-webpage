@@ -3,7 +3,7 @@ import React from "react";
 const AboutMe = () => {
   return (
     <section className="text-white pt-6 pb-20" id="about">
-      <h2 className="text-4xl font-bold pb-12">The Boring stuff</h2>
+      <h2 className="text-4xl font-bold pb-12">The boring stuff...</h2>
       <p className="px-4 text-center pb-12">
         I'm from Portugal and i have concluded my master degree in
         Eletrotecnical and Computers Engineering. I had my first job before

@@ -13,13 +13,18 @@ body {
   font-size: 1.125rem;
   line-height: 1.5rem;
   font-weight: 400;
-  overflow-x: hidden;
 }
 a {
   box-shadow: none;
   text-decoration: none;
 }
-
+@media only screen and (max-width: 1000px) {
+  nav {
+    background-color: #0c0f11;
+    box-shadow: 0px 15px 85px 55px #0c0f11;
+    z-index: 1;
+  }
+}
 .line1 {
   width: 150%;
   height: 100%;
