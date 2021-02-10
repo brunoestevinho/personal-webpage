@@ -13,7 +13,7 @@ const timeline_data = [
     title: "Master Dissertation",
     text: "Concluded my Master Dissertation with a grade of 18 out of 20",
     subtext: "Aircraft Parking Optimization in Maintenance Hangars",
-    date: "January 31 2018",
+    date: "January 2018",
     category: {
       tag: "Education",
       color: "#d29ea4",
@@ -33,7 +33,7 @@ const timeline_data = [
     },
   },
   {
-    title: "",
+    title: "Shift Leader",
     text: "Promoted to Shift Leader at SOFYNE",
     date: "June 2019",
     category: {
@@ -42,7 +42,7 @@ const timeline_data = [
     },
   },
   {
-    title: "",
+    title: "College Degree",
     text:
       "Completed a Integrated Master in Electrical and Computers Engineering at the Faculty of Engineering of the University of Porto (FEUP)",
     date: "July 2019",
@@ -52,10 +52,10 @@ const timeline_data = [
     },
   },
   {
-    title: "",
+    title: "Quit my job",
     text:
       "Quit my job to study and deepen my knowledge in Front-End development",
-    date: "June 2019",
+    date: "October 2020",
     category: {
       tag: "Personal",
       color: "#6d625c",

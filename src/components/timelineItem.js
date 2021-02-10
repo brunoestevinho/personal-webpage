@@ -7,7 +7,6 @@ const timelineItem = ({ data }) => {
         <span className="tag" style={{ backgroundCfolor: data.category.color }}>
           {data.category.tag}
         </span>
-        <time>{data.date}</time>
         <h1>
           <strong>{data.title}</strong>
         </h1>
@@ -18,7 +17,9 @@ const timelineItem = ({ data }) => {
             {data.link.text}
           </a>
         )}
+        <p className="time-mob">{data.date}</p>
         <span className="square" />
+        <time>{data.date}</time>
       </div>
     </div>
   );
