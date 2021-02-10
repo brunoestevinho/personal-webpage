@@ -1,4 +1,4 @@
-const project_data = [
+const projectData = [
   {
     title: "Todo List",
     image: "../images/todo.png",
@@ -17,4 +17,4 @@ const project_data = [
   },
 ];
 
-export default project_data;
+export default projectData;
