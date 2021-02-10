@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Link } from "react-scroll";
+import resume from "../resume.pdf";
 
 const Header = () => {
   return (
@@ -27,7 +28,7 @@ const Header = () => {
       </div>
       <div className="font-thin">
         <a
-          href="./Resume.pdf"
+          href={resume}
           target="_blank"
           rel="noreferrer"
           className="py-1 px-5 hover:text-red-600 duration-500 ease-in-out"
