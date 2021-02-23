@@ -4,8 +4,6 @@ import projectData from "../data/projectData";
 import { ReactComponent as GitHub } from "../images/github.svg";
 import { ReactComponent as WebPage } from "../images/webpage.svg";
 
-import project1 from "../images/todo.png";
-
 const Projects = () => {
   return (
     <section className="text-white pt-6" id="projects">
@@ -26,7 +24,7 @@ const Projects = () => {
               }
             >
               <img
-                src={project1}
+                src={projectData.image}
                 width="768px"
                 height="575px"
                 alt={projectData.title}

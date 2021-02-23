@@ -12,7 +12,7 @@ const skills = [
     item: "ReactJS",
   },
   {
-    item: "Bootstrap",
+    item: "Redux",
   },
   {
     item: "Tailwind CSS",
