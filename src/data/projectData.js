@@ -17,7 +17,7 @@ const projectData = [
     title: "Humblify",
     image: img2,
     description: "A simple user-interface for your spotify data",
-    tools: ["React", "Spotify API", "TailwindCSS"],
+    tools: ["React", "Axios", "CookiesJS", "Spotify API", "TailwindCSS"],
     github: "https://https://github.com/brunoestevinho/humblify",
     link: "https://humblify.netlify.app/",
   },
