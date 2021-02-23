@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReactGA from "react-ga";
 
 const HLSpan = styled.span`
   box-shadow: inset 0 -2.5rem 0 #dadfe4;
@@ -27,6 +28,8 @@ const ScrollDownButton = styled.div`
 `;
 
 const Hero = () => {
+  ReactGA.pageview("/hero");
+
   return (
     <section className="flex items-center pl-10 sm:pl-14 md:pl-32 xl:pl-56 pb-28 h-screen text-white">
       <div className="space-y-2">

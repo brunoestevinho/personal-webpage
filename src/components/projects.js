@@ -1,6 +1,7 @@
 import React from "react";
 import projectData from "../data/projectData";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReactGA from "react-ga";
 
 import { ReactComponent as GitHub } from "../images/github.svg";
 import { ReactComponent as WebPage } from "../images/webpage.svg";
@@ -12,6 +13,9 @@ const Projects = () => {
         <ScrollAnimation
           animateIn="animate__fadeInDown"
           animateOut="animate__fadeOut"
+          afterAnimatedIn={function afterAnimatedIn() {
+            ReactGA.pageview("/projects");
+          }}
         >
           <h2 className="text-4xl font-bold pb-12">The interesting stuff!</h2>
         </ScrollAnimation>
