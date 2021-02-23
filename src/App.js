@@ -1,4 +1,5 @@
 import "./App.css";
+import "animate.css/animate.min.css";
 
 import Layout from "./containers/layout";
 import AboutMe from "./components/aboutMe";
