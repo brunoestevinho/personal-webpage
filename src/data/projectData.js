@@ -1,7 +1,7 @@
 const projectData = [
   {
     title: "Personal Website",
-    image: "../images/todo.png",
+    image: "../images/personal-webpage.png",
     description:
       "My personal website where anyone can find a bit more about me and some of the projects i've made",
     tools: ["React", "TailwindCSS"],
@@ -10,7 +10,7 @@ const projectData = [
   },
   {
     title: "Humblify",
-    image: "../images/todo.png",
+    image: "../images/humblify.png",
     description: "A simple user-interface for your spotify data",
     tools: ["React", "Spotify API", "TailwindCSS"],
     github: "https://github.com/brunoestevinho/todo-react",
