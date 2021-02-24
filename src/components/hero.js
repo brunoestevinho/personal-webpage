@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styled from "styled-components";
 
 import { Link } from "react-scroll";
@@ -28,7 +28,7 @@ const ScrollDownButton = styled.div`
 `;
 
 const Hero = () => {
-  ReactGA.pageview("/hero");
+  useEffect(() => ReactGA.pageview("/hero"));
 
   return (
     <section className="flex items-center pl-10 sm:pl-14 md:pl-32 xl:pl-56 pb-28 h-screen text-white">

@@ -1,8 +1,13 @@
 import React from "react";
+import styled from "styled-components";
+import ScrollAnimation from "react-animate-on-scroll";
 
 import skills from "../data/skills";
 
-import ScrollAnimation from "react-animate-on-scroll";
+const Skill = styled.span`
+  box-shadow: inset 0 -2.5rem 0 rgba(160, 33, 33, 0.8);
+  font-style: italic;
+`;
 
 const AboutMe = () => {
   return (
@@ -26,10 +31,11 @@ const AboutMe = () => {
         <p className="px-4 pb-4">
           I have a master degree in Eletrotecnical and Computers Engineering and
           had my first job before finishing my studies as a Support Specialist.
-          While I developed and improved many technical skills such as SQL,
-          JavaScript and C# working in fast paced production environments, I've
-          also managed to consolidate the ability to prioritize tasks and to
-          work effectively under pressure.
+          While I developed and improved many technical skills such as
+          <Skill> SQL </Skill>,<Skill> JavaScript </Skill> and
+          <Skill> C# </Skill> working in fast paced production environments,
+          I've also managed to consolidate the ability to prioritize tasks and
+          to work effectively under pressure.
         </p>
         <p className="px-4 pb-12">
           After just over 2 years, already as a Shift Leader, I decided that it
@@ -45,7 +51,7 @@ const AboutMe = () => {
         animateOut="animate__fadeOut"
       >
         <h3 className="text-2xl font-bold pt-12 pb-12">
-          Technologies i've been using recently
+          Technologies I've been using recently
         </h3>
       </ScrollAnimation>
 
