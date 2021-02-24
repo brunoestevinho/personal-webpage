@@ -6,7 +6,6 @@ import ReactGA from "react-ga";
 
 ReactGA.initialize({
   trackingId: process.env.REACT_APP_TRACKINGID,
-  debug: true,
 });
 
 ReactDOM.render(

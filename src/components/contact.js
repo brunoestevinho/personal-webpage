@@ -1,5 +1,19 @@
 import React from "react";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReactGA from "react-ga";
+
+const linkedinClickHandler = () => {
+  ReactGA.event({
+    category: "Links",
+    action: "Clicked My LinkedIn",
+  });
+};
+const githubClickHandler = () => {
+  ReactGA.event({
+    category: "Links",
+    action: "Clicked My GitHUb",
+  });
+};
 
 const Contact = () => {
   return (
@@ -7,6 +21,9 @@ const Contact = () => {
       <ScrollAnimation
         animateIn="animate__fadeInDown"
         animateOut="animate__fadeOut"
+        afterAnimatedIn={function afterAnimatedIn() {
+          ReactGA.pageview("/contact");
+        }}
       >
         <h2 className="text-4xl font-bold pb-20">Reach me</h2>
       </ScrollAnimation>
@@ -40,6 +57,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
               alt="LinkedIn Bruno Estevinho"
+              onClick={linkedinClickHandler}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,6 +75,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
               alt="GitHub Bruno Estevinho"
+              onClick={githubClickHandler}
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"

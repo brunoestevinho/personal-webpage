@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import ScrollAnimation from "react-animate-on-scroll";
+import ReactGA from "react-ga";
 
 import skills from "../data/skills";
 
@@ -15,6 +16,9 @@ const AboutMe = () => {
       <ScrollAnimation
         animateIn="animate__fadeInDown"
         animateOut="animate__fadeOut"
+        afterAnimatedIn={function afterAnimatedIn() {
+          ReactGA.pageview("/aboutme");
+        }}
       >
         <h2 className="text-4xl font-bold pb-12">The boring stuff...</h2>
       </ScrollAnimation>
@@ -31,11 +35,11 @@ const AboutMe = () => {
         <p className="px-4 pb-4">
           I have a master degree in Eletrotecnical and Computers Engineering and
           had my first job before finishing my studies as a Support Specialist.
-          While I developed and improved many technical skills such as
-          <Skill> SQL </Skill>,<Skill> JavaScript </Skill> and
-          <Skill> C# </Skill> working in fast paced production environments,
-          I've also managed to consolidate the ability to prioritize tasks and
-          to work effectively under pressure.
+          While I developed and improved many technical skills such as &nbsp;
+          <Skill>SQL</Skill>,&nbsp; <Skill>JavaScript</Skill>&nbsp;and&nbsp;
+          <Skill>C#</Skill> working in fast paced production environments, I've
+          also managed to consolidate the ability to prioritize tasks and to
+          work effectively under pressure.
         </p>
         <p className="px-4 pb-12">
           After just over 2 years, already as a Shift Leader, I decided that it
