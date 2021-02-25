@@ -4,6 +4,7 @@ import ScrollAnimation from "react-animate-on-scroll";
 import ReactGA from "react-ga";
 
 import skills from "../data/skills";
+import Timeline from "./timeline";
 
 const Skill = styled.span`
   box-shadow: inset 0 -2.5rem 0 rgba(160, 33, 33, 0.8);
@@ -43,18 +44,19 @@ const AboutMe = () => {
         </p>
         <p className="px-4 pb-12">
           After just over 2 years, already as a Shift Leader, I decided that it
-          was time for me to pursue a carrear I really enjoyed. I quit my job
+          was time for me to pursue a carreer I really enjoyed. I quit my job
           and started to deepen my knowledge in Front-End development mainly. My
           main focus is to create software that is not only functional and
           intuitive but also able to stand out. I love to learn new things
-          everyday as a way to continuous improve and to exceed myself.
+          everyday as a way to continuously improve and to exceed myself.
         </p>
       </ScrollAnimation>
+      <Timeline />
       <ScrollAnimation
         animateIn="animate__fadeInDown"
         animateOut="animate__fadeOut"
       >
-        <h3 className="text-2xl font-bold pt-12 pb-12">
+        <h3 className="text-2xl font-bold pt-20 pb-12">
           Technologies I've been using recently
         </h3>
       </ScrollAnimation>
