@@ -2,6 +2,7 @@
 
 My personal website where you can know a bit more about me and some of my projects
 
+![Personal website](src/images/personal-webpage.png?raw=true "Personal Website")
 
 ## Installing
 
