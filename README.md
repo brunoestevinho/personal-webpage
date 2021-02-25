@@ -1,4 +1,4 @@
-# bruno.estevinho.dev - Personal Web Site
+# brunoestevinho.dev - Personal Web Site
 
 My personal website where you can know a bit more about me and some of my projects
 
