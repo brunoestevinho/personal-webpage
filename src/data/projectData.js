@@ -1,6 +1,6 @@
-import img1 from "../images/personal-webpage.png";
-import img2 from "../images/humblify.png";
-import img3 from "../images/todo.png";
+import img1 from "../images/personal-webpage.webp";
+import img2 from "../images/humblify.webp";
+import img3 from "../images/todo.webp";
 
 const projectData = [
   {
