@@ -7,7 +7,7 @@ const projectData = [
     title: "Personal Website",
     image: img1,
     description:
-      "My personal website where anyone can find a bit more about me and some of the projects i've made",
+      "My personal website showing a bit more about myself and some of the  projects I have made",
     tools: ["React", "TailwindCSS", "Styled Components"],
     github: "https://github.com/brunoestevinho/personal-webpage",
     link: "https://brunoestevinho.dev/",
@@ -15,7 +15,7 @@ const projectData = [
   {
     title: "Humblify",
     image: img2,
-    description: "A simple user-interface for your spotify data",
+    description: "A simple user-interface for your Spotify data",
     tools: ["React", "Axios", "Spotify API", "TailwindCSS"],
     github: "https://github.com/brunoestevinho/humblify",
     link: "https://humblify.netlify.app/",

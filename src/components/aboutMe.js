@@ -34,21 +34,22 @@ const AboutMe = () => {
           </strong>
         </h3>
         <p className="px-4 pb-4">
-          I have a master degree in Eletrotecnical and Computers Engineering and
-          had my first job before finishing my studies as a Support Specialist.
-          While I developed and improved many technical skills such as &nbsp;
+          I am a self taught Front-End Developer. I have a masters degree in
+          Eletrotecnical and Computers Engineering and I had my first job while
+          I was studying as a Support Specialist. This is where I developed and
+          improved a variety of technical skills such as&nbsp;
           <Skill>SQL</Skill>,&nbsp; <Skill>JavaScript</Skill>&nbsp;and&nbsp;
-          <Skill>C#</Skill> working in fast paced production environments, I've
-          also managed to consolidate the ability to prioritize tasks and to
-          work effectively under pressure.
+          <Skill>C#</Skill>. I am used to working in fast paced production
+          environments and work effectively under pressure.
         </p>
         <p className="px-4 pb-12">
-          After just over 2 years, already as a Shift Leader, I decided that it
-          was time for me to pursue a carreer I really enjoyed. I quit my job
-          and started to deepen my knowledge in Front-End development mainly. My
-          main focus is to create software that is not only functional and
-          intuitive but also able to stand out. I love to learn new things
-          everyday as a way to continuously improve and to exceed myself.
+          After nearly 3 years of working at SOFYNE, where I became a Shift
+          Leader, I decided that it was time for me to pursue a career that I
+          was really passionate about; to focus on deepening my knowledge in
+          Front-End development. My goal is to create software that is not only
+          functional and intuitive but also is able to stand out in todays
+          competitive market. I am always looking for new opportuinies. I love
+          to learn new things everyday as a way to continuously improve myself.
         </p>
       </ScrollAnimation>
       <Timeline />
