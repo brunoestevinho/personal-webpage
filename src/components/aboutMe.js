@@ -34,12 +34,12 @@ const AboutMe = () => {
           </strong>
         </h3>
         <p className="px-4 pb-4">
-          I am a self taught Front-End Developer. I have a masters degree in
-          Eletrotecnical and Computers Engineering and I had my first job while
-          I was studying as a Support Specialist. This is where I developed and
-          improved a variety of technical skills such as&nbsp;
+          I am a self-taught Front-End Developer. I have a master's degree in
+          Electrotechnical and Computers Engineering and I had my first job
+          while I was studying as a Support Specialist. This is where I
+          developed and improved a variety of technical skills such as&nbsp;
           <Skill>SQL</Skill>,&nbsp; <Skill>JavaScript</Skill>&nbsp;and&nbsp;
-          <Skill>C#</Skill>. I am used to working in fast paced production
+          <Skill>C#</Skill>. I am used to working in fast-paced production
           environments and work effectively under pressure.
         </p>
         <p className="px-4 pb-12">
@@ -47,9 +47,9 @@ const AboutMe = () => {
           Leader, I decided that it was time for me to pursue a career that I
           was really passionate about; to focus on deepening my knowledge in
           Front-End development. My goal is to create software that is not only
-          functional and intuitive but also is able to stand out in todays
-          competitive market. I am always looking for new opportuinies. I love
-          to learn new things everyday as a way to continuously improve myself.
+          functional and intuitive but also is able to stand out in today's
+          competitive market. I am always looking for new opportunities. I love
+          to learn new things every day as a way to continuously improve myself.
         </p>
       </ScrollAnimation>
       <Timeline />
