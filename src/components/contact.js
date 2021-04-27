@@ -47,7 +47,7 @@ const Contact = () => {
             className="email text-xl pt-6"
             href="mailto:info@brunoestevinho.dev"
           >
-            info@brunoestevinho.dev
+            bruno.m.estevinho@gmail.com
           </a>
           <p className="pt-12 pb-12">Or...</p>
           <p>Check below to find a bit more about me</p>
