@@ -1,8 +1,7 @@
 const timeline_data = [
   {
     title: "High School Education",
-    text:
-      "Finished High School education at Colegio dos Carvalhos in the Electronics and Telecommunications field",
+    text: "Finished High School education at Colegio dos Carvalhos in the Electronics and Telecommunications field",
     date: "June 2012",
     category: {
       tag: "Education",
@@ -43,8 +42,7 @@ const timeline_data = [
   },
   {
     title: "College Degree",
-    text:
-      "Completed a Integrated Master in Electrical and Computers Engineering at the Faculty of Engineering of the University of Porto (FEUP)",
+    text: "Completed a Integrated Master in Electrical and Computers Engineering at the Faculty of Engineering of the University of Porto (FEUP)",
     date: "July 2019",
     category: {
       tag: "Education",
@@ -53,12 +51,20 @@ const timeline_data = [
   },
   {
     title: "Quit my job",
-    text:
-      "Quit my job to study and deepen my knowledge in Front-End development",
+    text: "Quit my job to study and deepen my knowledge in Front-End development",
     date: "October 2020",
     category: {
       tag: "Personal",
       color: "#6d625c",
+    },
+  },
+  {
+    title: "Junior Front-End Developer",
+    text: "Started working at Hostelworld",
+    date: "June 2021",
+    category: {
+      tag: "Work",
+      color: "#ed0b0e",
     },
   },
 ];
