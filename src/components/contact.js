@@ -29,14 +29,6 @@ const Contact = () => {
       </ScrollAnimation>
       <div className="px-4 text-center pb-6">
         <ScrollAnimation
-          animateIn="animate__pulse"
-          animateOut="animate__fadeOut"
-        >
-          <p className="underline text-2xl">
-            I'm currently looking for new opportunities!
-          </p>
-        </ScrollAnimation>
-        <ScrollAnimation
           animateIn="animate__fadeIn"
           animateOut="animate__fadeOut"
         >
